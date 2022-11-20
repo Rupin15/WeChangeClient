@@ -25,7 +25,6 @@
     "querystring": "^0.2.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-google-login": "^5.2.2",
     "react-icons": "^4.4.0",
     "react-lottie-player": "^1.4.3",
     "react-map-gl": "^7.0.16",
