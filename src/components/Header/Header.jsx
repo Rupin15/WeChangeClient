@@ -20,7 +20,7 @@ const Header = () => {
         <div className="left">
           <div className="title">
             <div className="green">Together</div>
-            <div className="words">We can restore the planet, can't we?</div>
+            <div className="words">We can restore the planet</div>
           </div>
           <Link to="/quality">
             <div className="util">
