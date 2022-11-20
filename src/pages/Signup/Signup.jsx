@@ -171,16 +171,8 @@ const SignUp = () => {
 
         </div>
         <div className="or">OR</div>
-        <div className="google">
-          {/* <GoogleLogin
-            clientId={process.env.REACT_APP_client_id}
-            onSuccess={onSuccess}
-            onFailure={(err) => console.log("fail", err)}
-            buttonText="Signup with Google"
-          ></GoogleLogin> */}
         </div>
       </div>
-    </div>
   );
 };
 export default SignUp;
