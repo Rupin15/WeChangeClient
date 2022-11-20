@@ -138,12 +138,12 @@ const Login = () => {
 
         <div className="or">OR</div>
         <div className="google">
-          <GoogleLogin
+          {/* <GoogleLogin
             clientId={process.env.REACT_APP_client_id}
             onSuccess={onSuccess}
             onFailure={(err) => console.log("fail", err)}
             buttonText="Sign in with Google"
-          ></GoogleLogin>
+          ></GoogleLogin> */}
         </div>
 
       </div>
