@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { GoogleLogin } from "react-google-login";
 import { toast } from "react-toastify";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";

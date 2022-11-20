@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { toast } from "react-toastify";
-import { GoogleLogin } from "react-google-login";
 import axios from "axios";
 import { useNavigate } from "react-router";
 import FullScreenLoader from "./FullScreenLoader";
@@ -173,12 +172,12 @@ const SignUp = () => {
         </div>
         <div className="or">OR</div>
         <div className="google">
-          <GoogleLogin
+          {/* <GoogleLogin
             clientId={process.env.REACT_APP_client_id}
             onSuccess={onSuccess}
             onFailure={(err) => console.log("fail", err)}
             buttonText="Signup with Google"
-          ></GoogleLogin>
+          ></GoogleLogin> */}
         </div>
       </div>
     </div>
